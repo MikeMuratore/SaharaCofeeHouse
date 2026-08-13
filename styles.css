@@ -112,7 +112,7 @@ footer{background:#a8732d;background-image:none;box-shadow:none}footer .footer-o
   .hero-actions{width:100%;gap:10px}
   .hero-actions .button{flex:1;min-width:0;height:44px;padding-inline:10px;font-size:9px}
   .hero-wave{height:80px}
-  .wave-mark{bottom:-12px}
+  .wave-mark{bottom:6px}
   .about{gap:0;padding:38px 0 52px}
   .about img{height:270px}
   .about-copy{padding-top:34px}
