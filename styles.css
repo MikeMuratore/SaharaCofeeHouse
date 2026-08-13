@@ -183,6 +183,9 @@ footer{background:#a8732d;background-image:none;box-shadow:none}footer .footer-o
 .clip-definitions{position:absolute;overflow:hidden;pointer-events:none}.moorish-arch{width:clamp(310px,36vw,470px);aspect-ratio:5/4;overflow:hidden;-webkit-clip-path:url(#moorish-arch-clip);clip-path:url(#moorish-arch-clip)}.moorish-arch>img,.moorish-arch>video{display:block;width:100%;height:100%;object-fit:cover}.about-arch{justify-self:center}.about .about-arch img{width:100%;height:100%;object-position:center}
 @media(max-width:600px){.about-arch{grid-row:1;width:min(86vw,365px);margin-inline:auto;-webkit-clip-path:none;clip-path:none}.about .about-arch img{height:100%}}
 
+/* Preserve the vector logo's natural proportions in both placements. */
+.navbar-logo img,.footer-logo img{width:100%;height:100%;max-width:100%;object-fit:contain;transform:none}
+
 /* High-contrast primary CTAs. */
 .hero-actions .button.outline,.location-actions .button.gold,.location-actions>a:not(.button){border:1px solid #633d12;background:#633d12;color:#fff;box-shadow:0 6px 16px rgba(63,38,10,.18)}.hero-actions .button.outline:hover,.location-actions .button.gold:hover,.location-actions>a:not(.button):hover{border-color:#352109;background:#352109;color:#fff}.hero-actions .button.outline:focus-visible,.location-actions .button.gold:focus-visible,.location-actions>a:not(.button):focus-visible{outline:3px solid #fff;outline-offset:3px;box-shadow:0 0 0 5px #633d12}
 
