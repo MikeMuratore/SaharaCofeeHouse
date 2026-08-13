@@ -51,7 +51,7 @@ footer .footer-content{text-shadow:0 1px 12px rgba(67,38,6,.28)}
 .hero{background-image:linear-gradient(90deg,#fffdf8 0%,#fffdf8 52%,rgba(255,253,248,.97) 55%,rgba(255,253,248,.38) 64%,rgba(255,253,248,0) 72%),url("Product.jpeg")}
 .hero-kicker:before,.hero .tea-heading .tea-word:before{display:none}.hero .tea-heading .phrase-row{gap:13px}.hero .tea-heading .tea-word{margin-left:2.55em}
 .navbar-logo img{transform:translate(-6px,-15px)}
-.wave-mark{bottom:7px;width:94px;height:51px}.wave-mark img{width:94px;height:auto;transform:none}
+.wave-mark{bottom:7px;width:94px;height:51px;padding-top:5px;box-sizing:border-box;overflow:visible}.wave-mark img{width:94px;height:auto;transform:none}
 @media(max-width:600px){.wave-mark{bottom:4px;width:84px;height:46px}.wave-mark img{width:84px;height:auto;transform:none}}
 
 /* Editorial fan-favorites menu preview */
